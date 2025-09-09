@@ -4,17 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/maposia/go_calendar/events"
-	"github.com/maposia/go_calendar/logger"
-	"github.com/maposia/go_calendar/storage"
-)
-
-type NotificationType string
-
-const (
-	Info   NotificationType = "info"
-	Error  NotificationType = "error"
-	System NotificationType = "system"
+	"github.com/maposia/gevent/events"
+	"github.com/maposia/gevent/logger"
+	"github.com/maposia/gevent/storage"
 )
 
 type Calendar struct {

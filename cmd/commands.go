@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/maposia/go_calendar/events"
+	"github.com/maposia/gevent/events"
 )
 
 func (c *Cmd) handleAdd(parts []string) {

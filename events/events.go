@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	"github.com/maposia/go_calendar/reminder"
+	"github.com/maposia/gevent/reminder"
 )
 
 type Event struct {

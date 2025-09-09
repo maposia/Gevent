@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/maposia/go_calendar/calendar"
-	"github.com/maposia/go_calendar/cmd"
-	"github.com/maposia/go_calendar/storage"
+	"github.com/maposia/gevent/calendar"
+	"github.com/maposia/gevent/cmd"
+	"github.com/maposia/gevent/storage"
 )
 
 func main() {

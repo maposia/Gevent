@@ -4,17 +4,14 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"sync"
 	"time"
 
 	"github.com/c-bata/go-prompt"
 	"github.com/google/shlex"
-	"github.com/maposia/go_calendar/calendar"
-	"github.com/maposia/go_calendar/logger"
-	"github.com/maposia/go_calendar/storage"
+	"github.com/maposia/gevent/calendar"
+	"github.com/maposia/gevent/logger"
+	"github.com/maposia/gevent/storage"
 )
-
-var mu sync.Mutex
 
 type LogEntry struct {
 	Message string    `json:"message"`

@@ -1,4 +1,4 @@
-module github.com/maposia/go_calendar
+module github.com/maposia/gevent
 
 go 1.24.1
 
