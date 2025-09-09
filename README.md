@@ -33,7 +33,7 @@ A command-line calendar application built with Go for managing events and remind
 ## 📁 Project Structure
 
 ```bash
-go_calendar/
+gevent/
 ├── calendar/   # Core calendar logic
 ├── cmd/        # Command-line interface
 ├── events/     # Event management
@@ -46,8 +46,8 @@ go_calendar/
 
 ## Clone the repository
 
-git clone https://github.com/maposia/go_calendar.git
-cd go_calendar
+git clone https://github.com/maposia/Gevent.git
+cd gevent
 
 ## Install dependencies
 
